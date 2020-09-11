@@ -5,8 +5,8 @@ import "./timer.styles.scss";
 const Timer = (props) => {
   return (
     <div className="timer">
-      <h2 id="timer-label">{props.sessionPlaying ? "Session" : "Break"}</h2>
-      <span id="time-left">{`${props.minutes}:${props.seconds}`}</span>
+      <h1 id="timer-label">{props.sessionPlaying ? "Session" : "Break"}</h1>
+      <h1 id="time-left">{props.time()}</h1>
     </div>
   );
 };
