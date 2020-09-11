@@ -4,7 +4,7 @@ import "./start_stop.styles.scss";
 
 const StartStop = (props) => {
   return (
-    <div>
+    <div className="start_stop">
       <div id="start_stop" onClick={props.start_stop}>
         {props.time_going ? "Pause" : "Start"}
       </div>

@@ -5,7 +5,9 @@ import "./switcher.styles.scss";
 const Switcher = (props) => {
   return (
     <div className="switcher">
-      <h2 id={`${props.id}-label`}>{props.name}</h2>
+      <span className="switcher--label" id={`${props.id}-label`}>
+        {props.name}
+      </span>
       <div className="switcher--controls">
         <button
           id={`${props.id}-decrement`}

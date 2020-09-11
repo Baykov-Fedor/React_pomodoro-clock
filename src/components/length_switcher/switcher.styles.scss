@@ -2,8 +2,8 @@
   border: none;
   background-position: center;
   background-repeat: no-repeat;
-  width: 2rem;
-  height: 2rem;
+  width: 1.7rem;
+  height: 1.7rem;
   border-radius: 50%;
   &:hover {
     cursor: pointer;
@@ -13,6 +13,11 @@
 .switcher {
   display: flex;
   flex-direction: column;
+  color: #d1d1d1;
+
+  &--label {
+    font-size: 1.7rem;
+  }
 
   &--controls {
     display: flex;
@@ -23,7 +28,7 @@
     &--length {
       align-self: center;
       font-size: 2rem;
-      line-height: 100%;
+      line-height: 1.6rem;
     }
 
     &--decrement-icon {

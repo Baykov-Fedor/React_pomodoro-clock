@@ -1,0 +1,21 @@
+.start_stop {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+#start_stop {
+  color: green;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#reset {
+  color: red;
+  &:hover {
+    cursor: pointer;
+  }
+}

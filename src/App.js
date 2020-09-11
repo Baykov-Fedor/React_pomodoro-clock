@@ -115,7 +115,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Pomodoro Clock</h1>
+        <div className="App--title">Pomodoro Clock</div>
         <div className="App--clock-settings">
           <Switcher
             name="Break Length"
